@@ -26,3 +26,10 @@ dynamically (eg, when using [Terragrunt](https://github.com/gruntwork-io/terragr
 ```
 
 Enjoy the clean and documented code!
+
+---
+## 👬 Contribution
+
+- Open pull request with improvements
+- Discuss ideas in issues
+- Reach out with any feedback [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/anmol_nagpal.svg?style=social&label=Follow%20%40anmol_nagpal)](https://twitter.com/anmol_nagpal)
