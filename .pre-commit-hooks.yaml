@@ -1,0 +1,31 @@
+- id: fmt
+  name: Terraform fmt
+  description: Rewrites all Terraform configuration files to a canonical format.
+  entry: fmt
+  language: script
+  files: (\.tf|\.tfvars)$
+  exclude: \.terraform\/.*$
+
+- id: terraform_docs
+  name: Terraform docs
+  description: Inserts input and output documentation into README.md (using terraform-docs).
+  entry: docs
+  language: script
+  files: (\.tf)$
+  exclude: \.terraform\/.*$
+
+- id: terraform_validate_no_variables
+  name: Terraform validate without variables
+  description: Validates all Terraform configuration files without checking whether all required variables were set (basic check).
+  entry: validate_no_variables
+  language: script
+  files: (\.tf|\.tfvars)$
+  exclude: \.terraform\/.*$
+
+- id: terraform_validate_with_variables
+  name: Terraform validate with variables
+  description: Validates all Terraform configuration files and checks whether all required variables were specified.
+  entry: validate_with_variables
+  language: script
+  files: (\.tf|\.tfvars)$
+  exclude: \.terraform\/.*$
