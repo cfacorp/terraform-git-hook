@@ -1,6 +1,10 @@
-# terraform-git-hook
+<h1 align="center">
+    Terraform Git Hooks 
+</h1>
+<p align="center" style="font-size: 1.2rem;"> [pre-commit](http://pre-commit.com/) hooks to keep Terraform configurations in a good share ;) </p>
 
-Several [pre-commit](http://pre-commit.com/) hooks to keep Terraform configurations (both `*.tf` and `*.tfvars`) in a good shape:
+<hr />
+
 * `fmt` - Rewrites all Terraform configuration files to a canonical format.
 * `validate_without_variables` - Validates all Terraform configuration files without checking whether all required 
 variables were set.
